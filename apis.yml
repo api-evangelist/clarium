@@ -1,8 +1,13 @@
 aid: clarium
 name: Clarium
-description: 'Clarium is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare; ai. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'Clarium is a healthcare supply chain resiliency company founded in early 2020 during the
+  COVID-19 pandemic and headquartered in New York City. Its AI-powered platform, Astra OS, unifies
+  real-time data from hospitals and their suppliers across systems of record, then layers data-enabled
+  workflow apps on top: Disruption Monitoring to detect and resolve supply chain disruptions faster,
+  Substitute Management to automate product approvals, and Procedure Card Optimization to standardize
+  and cut cost. Clarium has raised $43M+ (including a $27M Series A led by General Catalyst, with
+  Northzone among its backers) and works with leading health systems such as Mount Sinai, Ochsner
+  Health, Allina Health, and Yale New Haven.'
 url: https://raw.githubusercontent.com/api-evangelist/clarium/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.clariumhealth.com/hubfs/Clarium%20Logo%20-%20Black.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
-- Healthcare; Ai
+- Healthcare
+- Artificial Intelligence
+- Supply Chain
+- Data
+- Automation
+- Hospitals
+- Analytics
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +48,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.clariumhealth.com
+- type: About
+  url: https://www.clariumhealth.com/company
+- type: Blog
+  url: https://www.clariumhealth.com/newsroom
+- type: PrivacyPolicy
+  url: https://www.clariumhealth.com/privacy-policy
+- type: Login
+  url: https://app.clariumhealth.com/login
+- type: SignUp
+  url: https://www.clariumhealth.com/demo
+- type: DomainSecurity
+  url: security/clarium-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
